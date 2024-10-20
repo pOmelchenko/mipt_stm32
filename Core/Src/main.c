@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "job.h"
 
 /* USER CODE END Includes */
 
@@ -94,10 +95,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-  	HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 0);
-  	HAL_Delay(500);
-  	HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 1);
-  	HAL_Delay(500);
+    blink_led();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
