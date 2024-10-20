@@ -1,3 +1,5 @@
+.metadata
+cmake-build-*
 [Dd]ebug
 [Rr]elease
-
+*.launch
